@@ -22,7 +22,7 @@
   background-color: var(--light-txt-cl);
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: calc(16/14);
   letter-spacing: 0.02em;
 
 }
@@ -49,7 +49,7 @@ body {
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: calc(31/26);
   letter-spacing: 0.03em;
   text-decoration: none;
 }
@@ -93,11 +93,11 @@ body {
 .hero-title {
   font-weight: 900;
   font-size: 44px;
-  line-height: 136%;
+  line-height: calc(60/44);
 
   text-align: center;
   letter-spacing: 0.06em;
-  text-transform: uppercase;
+
   color: var(--light-txt-cl);
 }
 
@@ -106,7 +106,7 @@ body {
   background-color: var(--button-bg-cl);
   font-weight: 700;
   font-size: 16px;
-  line-height: 188%;
+  line-height: calc(30/16);
 
   display: flex;
   align-items: center;
@@ -123,7 +123,7 @@ body {
 .section-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: calc(42/36);
   text-align: center;
   letter-spacing: 0.03em;
 
@@ -135,15 +135,14 @@ body {
 .feature-list-title {
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: calc(16/14);
   letter-spacing: 0.03em;
-  text-transform: uppercase;
 
   color: var(--second-txt-cl);
 }
 .feature-list-text {
   font-size: 14px;
-  line-height: 171%;
+  line-height: calc(24/14);
   letter-spacing: 0.03em;
   color: var(--main-txt-cl);
 }
@@ -153,7 +152,7 @@ body {
 .team-card-title {
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: calc(19/16);
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--second-txt-cl);
@@ -161,7 +160,7 @@ body {
 
 .team-card-text {
   font-size: 16px;
-  line-height: 19px;
+  line-height: calc(19/16);
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-txt-cl);
@@ -171,7 +170,7 @@ body {
 .btn {
   font-weight: 500;
   font-size: 16px;
-  line-height: 162%;
+  line-height: calc(26/16);
   text-align: center;
   letter-spacing: 0.03em;
 
@@ -192,14 +191,14 @@ body {
 .projects-card-title {
   font-weight: 700;
   font-size: 18px;
-  line-height: 200%;
+  line-height: calc(36/18);
   letter-spacing: 0.06em;
   color: var(--second-txt-cl);
 }
 
 .projects-card-text {
   font-size: 16px;
-  line-height: 188%;
+  line-height: calc(30/16);
   letter-spacing: 0.03em;
   color: var(--main-txt-cl);
 }
@@ -213,7 +212,7 @@ body {
 .footer-adress {
   font-style: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: calc(24/14);
   letter-spacing: 0.03em;
   color: var(--light-txt-cl);
   text-decoration: none;
@@ -222,7 +221,7 @@ body {
 .footer-contacts .cont {
   font-style: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: calc(24/14);
   letter-spacing: 0.03em;
   color: var(--black-opacity-txt-cl);
   text-decoration: none;
